@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"logging_ecs/go"
+	"logging_ecs"
 	"time"
 )
 
@@ -55,6 +55,6 @@ func main() {
 	logger.ErrorWithDetail("test_error_4", err, detail_time)
 	logger.ErrorWithDetail("test_error_5", err, detail_struct)
 
-	fmt.Println(".........Test OK")
+	fmt.Println(".........Test End 出力結果を確認すること。5 * 4 レベルの計20行が出力されて入ればOK。")
 
 }
