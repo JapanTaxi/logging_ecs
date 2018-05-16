@@ -17,4 +17,7 @@ ECSで動作するサーバー用のログ出力機能（標準出力がCloudWat
 エラーログはerrorオブジェクトを指定する。（エラーテキストが出力される）
 - {"level":"ERROR","message":"test_error_5","time":"2018-05-07T17:40:17.87915789+09:00","error_text":"Test Error","detail":{"param_int":123,"param_string":"test_param","param_bool":true}}
 
+## ライセンス
+MIT LICENSE
+
 
